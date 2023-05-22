@@ -3,7 +3,167 @@
   padding: 0;
 }
 
+body{
+  background-color: #D3D3D3;
+}
+
+header{
+  display: block;
+  text-align: left;
+}
+
 #first-header{
+  display: none;
+}
+
+#first-header img{
+  
+  
+}
+
+#navbar-h1{
+  
+}
+
+#navbar-h1 li{
+  
+}
+
+#navbar-h1 li a{
+  
+}
+
+#second-header{
   display: flex;
-  background-color: black;
+  height: 63px;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#hamburg{
+  padding: 17px 0px 18.72px 23px;
+}
+
+#logo-header{
+  padding: 6px 122px 6px 0px;
+  
+}
+
+#second-header button{
+ 
+  
+}
+
+#second-header button:hover{
+  
+}
+
+#navbar-h2{
+ display: none;
+}
+
+#navbar-h2 li{
+  
+}
+
+#navbar-h2 li a{
+  
+}
+
+#navbar-h2 li a:hover{
+  
+}
+
+@media (min-width: 768px) {
+  header{
+    display: block;
+    text-align: left;
+  }
+  
+  #first-header{
+    display: flex;
+    background-color: #272A31;
+    justify-content: end;
+    padding: 5px 230px 5px 0px;
+    color: #FFFFFF;
+    
+  }
+  
+  #first-header img{
+    padding: 5px 10px 5px 0px;
+   width: 15px;
+   height: 100%;
+    
+  }
+  
+  #navbar-h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+  }
+  
+  #navbar-h1 li{
+    padding-right: 10px;
+    list-style: none;
+  }
+  
+  #navbar-h1 li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  #second-header{
+    background-color: #FFFFFF;
+    display: flex;
+    height: 50px;
+    padding: 10px 230px 10px 230px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #second-header img{
+    height: 100%;
+  }
+  
+  #second-header button{
+   height: auto;
+   padding: 10px;
+   background-color: #FFFFFF;
+   color: #EC5242;
+   border: 3px solid #EC5242;
+    
+  }
+  
+  #second-header button:hover{
+    background-color: #EC5242;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  #navbar-h2{
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #navbar-h2 li{
+    list-style: none;
+    width: auto;
+    padding: 15px 30px 15px 30px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  #navbar-h2 li a{
+    text-decoration: none;
+    color: #272A31;
+    size: 30px;
+  }
+  
+  #navbar-h2 li a:hover{
+    color: #EC5242;
+  }
 }
