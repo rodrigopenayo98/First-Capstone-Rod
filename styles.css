@@ -16,33 +16,26 @@ header{
   display: none;
 }
 
-#first-header img{
-  
-  
+#logo-header{
+  display: none;
 }
 
-#navbar-h1{
-  
-}
-
-#navbar-h1 li{
-  
-}
-
-#navbar-h1 li a{
-  
-}
 
 #second-header{
-  display: flex;
-  height: 63px;
-  justify-content: space-between;
-  background-color: #FFFFFF;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  display: none;
 }
 
-#hamburg{
-  padding: 17px 0px 18.72px 23px;
+#section1 img {
+  padding-left: 25px;
+  padding-top: 20px;
+  width: 31px;
+  height: 27.28px;
+}
+
+#main-banner{
+  background-image: url("./images/mobile-home-bg.png");
+  background-size: 100% 100%;
+  background-position: center;
 }
 
 #logo-header{
@@ -50,30 +43,60 @@ header{
   
 }
 
-#second-header button{
- 
-  
-}
-
-#second-header button:hover{
-  
-}
-
 #navbar-h2{
  display: none;
 }
 
-#navbar-h2 li{
-  
+#main-banner{
+  height: 486px;
 }
 
-#navbar-h2 li a{
-  
+#main-content h4{
+padding: 47.62px 0px 0px 16px;
+font-family: 'Lato', sans-serif;
+color: #EC5242;
+font-weight: 400;
 }
 
-#navbar-h2 li a:hover{
-  
+
+
+#text-image{
+  padding: 0px 0px 16px 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: transparent;
+  background-image: url(./images/orangebg.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
+
+#second-parraf-banner h4{
+  font-family: 'Lato', sans-serif;
+  margin: 15px 15px 0px 15px;
+  font-size: 20px;
+  font-weight: 900px;
+  padding-bottom: px;
+}
+
+#second-parraf-banner h6{
+  font-family: 'Lato', sans-serif;
+  margin: 8px 15px 15px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #272A31;
+}
+
+
+
+#first-parraf-banner{
+  padding: 15px;
+  margin: 15px;
+  border: solid #FFFFFF 2px;
+  background-color: #f3efef;
+  font-family: 'Lato', sans-serif;
+}
+
 
 @media (min-width: 768px) {
   header{
