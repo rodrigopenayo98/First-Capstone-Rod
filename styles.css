@@ -34,13 +34,16 @@ header{
   padding-top: 20px;
   width: 31px;
   height: 27.28px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #main-banner{
-  background-image: url("./images/mobile-home-bg.png");
-  background-size: 100% 100%;
+  background-image: url("./images/concert-image2.jpg");
   background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.5);
 }
+
 
 #logo-header{
   padding: 6px 122px 6px 0px;
@@ -58,7 +61,7 @@ header{
 #main-content h4{
 padding: 47.62px 0px 0px 16px;
 font-family: 'Lato', sans-serif;
-color: #EC5242;
+color: #FFFFFF;
 font-weight: 400;
 }
 
@@ -69,8 +72,10 @@ font-weight: 400;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   font-size: 30px;
-  color: transparent;
-  background-image: url(./images/orangebg.jpg);
+  /* color: transparent; */
+  color: #EC5242;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* background-image: url(./images/orangebg.jpg); */
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -81,6 +86,7 @@ font-weight: 400;
   font-size: 20px;
   font-weight: 900px;
   padding-bottom: px;
+  color: #D3D3D3;
 }
 
 #second-parraf-banner h6{
@@ -88,7 +94,8 @@ font-weight: 400;
   margin: 8px 15px 15px 15px;
   font-size: 14px;
   font-weight: 400;
-  color: #272A31;
+  color: #EC5242;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -99,6 +106,8 @@ font-weight: 400;
   border: solid #FFFFFF 2px;
   background-color: #f3efef;
   font-family: 'Lato', sans-serif;
+  background-blend-mode: darken;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #main-program {
