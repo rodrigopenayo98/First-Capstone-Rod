@@ -3,14 +3,12 @@
   padding: 0;
 }
 
-body {}
 
 header {
   display: block;
   text-align: left;
 }
 
-#section1 {}
 
 #first-header {
   display: none;
@@ -19,7 +17,6 @@ header {
 #logo-header {
   display: none;
 }
-
 
 #second-header {
   display: none;
@@ -37,7 +34,6 @@ header {
   margin-left: 0px;
 }
 
-
 #main-banner {
   background-image: url("./images/fondo-personalizado-rod.png");
   background-repeat: no-repeat;
@@ -48,13 +44,11 @@ header {
   flex-direction: column;
   align-items: center;
   margin: 0px;
-
 }
 
 
 #logo-header {
   padding: 6px 122px 6px 0px;
-
 }
 
 #navbar-h2 {
@@ -78,7 +72,6 @@ header {
   font-weight: 400;
   text-align: center;
 }
-
 
 #second-parraf-banner p {
   font-family: 'Lato', sans-serif;
@@ -186,7 +179,6 @@ header {
   width: 340px;
 }
 
-
 #see-the-past img {
   width: 290px;
   height: 155px;
@@ -195,7 +187,6 @@ header {
 
 .line4 {
   border: 0.5px solid #EC5242;
-  ;
   width: 10%;
   margin: 0 auto;
 }
@@ -367,7 +358,6 @@ header {
   padding: 38px 18px 5px 5px;
   cursor: pointer;
 }
-
 
 .menu-responsive li button {
   height: auto;

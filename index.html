@@ -26,25 +26,29 @@
           <li><a href="#">Logout</a></li>
         </ul>
       </div>
-      <div id="second-header">
-        <img id="logo-header" src="./images/logo.png" alt="" />
-        <ul id="navbar-h2">
-          <li><a href="./about.html">About</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Sponsor</a></li>
-          <li><a href="#">News</a></li>
-          <li><button>CC Campaign</button></li>
-        </ul>
-      </div>
     </header>
+    <div id="second-header">
+      <a href="./index.html" id="logo-header"
+        ><img src="./images/logo.png" alt=""
+      /></a>
+      <ul id="navbar-h2">
+        <li><a href="./about.html">About</a></li>
+        <li><a href="#">Program</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Sponsor</a></li>
+        <li><a href="#">News</a></li>
+        <li><button>CC Campaign</button></li>
+      </ul>
+    </div>
     <section id="section1">
       <nav class="menu-responsive">
         <div class="x-section">
           <img src="./images/x-icon.png" alt="" />
         </div>
         <ul class="navbar-menu-responsive">
-          <li><a href="./about.html" class="items-menu-responsive">About</a></li>
+          <li>
+            <a href="./about.html" class="items-menu-responsive">About</a>
+          </li>
           <li><a href="#" class="items-menu-responsive">Program</a></li>
           <li><a href="#" class="items-menu-responsive">Join</a></li>
           <li><a href="#" class="items-menu-responsive">Sponsor</a></li>
@@ -142,44 +146,123 @@
             </p>
           </div>
         </div>
+        <a id="aux-link" href="#">SEE THE WHOLE PROGRAM</a>
         <button>BUY YOUR TICKETS NOW!</button>
       </div>
       <div id="featured-speaker">
         <h2>Upcoming Events</h2>
-        <div class="speakers-cards">
-          <img src="./images/imdrwbg.png" alt="" />
-          <div class="info-speakers">
-            <h3>Imagine Dragons</h3>
-            <h5>
-              The tour, which celebrates the release of his massively
-              anticipated double album, Mercury
-            </h5>
-            <hr class="line3" />
-            <p>
-              Imagine Dragons announces the rescheduling of their dates for
-              their "Mercury World Tour" in Latin America.
-            </p>
+        <hr class="line-speaker" />
+        <div id="speaker-container">
+          <div class="speakers-cards">
+            <img src="./images/imdrwbg.png" alt="" />
+            <div class="info-speakers">
+              <h3>Imagine Dragons</h3>
+              <h5>
+                The tour, which celebrates the release of his massively
+                anticipated double album, Mercury
+              </h5>
+              <hr class="line3" />
+              <p>
+                Imagine Dragons announces the rescheduling of their dates for
+                their "Mercury World Tour" in Latin America.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="speakers-cards">
-          <img src="./images/ed-sheeran.png" alt="" />
-          <div class="info-speakers">
-            <h3>Ed Sheeran</h3>
-            <h5>
-              New (-) Tour - Promotion of his latest studio album Substract
-            </h5>
-            <hr class="line3" />
-            <p>
-              Buy Ed Sheeran concert tickets near you. Check out upcoming tour
-              dates in 2023-24, supporting artists, reviews and venue
-              information..
-            </p>
+          <div class="speakers-cards">
+            <img src="./images/ed-sheeran.png" alt="" />
+            <div class="info-speakers">
+              <h3>Ed Sheeran</h3>
+              <h5>
+                New (-) Tour - Promotion of his latest studio album Substract
+              </h5>
+              <hr class="line3" />
+              <p>
+                Buy Ed Sheeran concert tickets near you. Check out upcoming tour
+                dates in 2023-24, supporting artists, reviews and venue
+                information..
+              </p>
+            </div>
+          </div>
+          <div class="speakers-cards aux-card">
+            <img src="./images/3quevedo.png" alt="" />
+            <div class="info-speakers">
+              <h3>Quevedo</h3>
+              <h5>
+                First World Tour of the canarian singer - Promotion of his first studio album Donde Quiero Estar
+              </h5>
+              <hr class="line3" />
+              <p>
+                Quevedo announced this Thursday the first three confirmed dates of what will be his first big tour 'DQE Tour".
+              </p>
+            </div>
+          </div>
+          <div class="speakers-cards aux-card">
+            <img src="./images/4martin.png" alt="" />
+            <div class="info-speakers">
+              <h3>Martin Garrix</h3>
+              <h5>
+                The Dutch dj has just announced the first dates of the year for festivals.
+              </h5>
+              <hr class="line3" />
+              <p>
+                The 22-year-old Dutch artist was chosen by the British magazine Dj Magazine as the best in the world in the years 2016, 2017 and 2018.
+              </p>
+            </div>
+          </div>
+          <div class="speakers-cards aux-card">
+            <img src="./images/5kygo.png" alt="" />
+            <div class="info-speakers">
+              <h3>Kygo</h3>
+              <h5>
+                The norwegian DJ arrives for the first time in Argentina on November 19.
+              </h5>
+              <hr class="line3" />
+              <p>
+                KYGO announced through its social networks with great emotion that it will be presented for the FIRST TIME in South America
+              </p>
+            </div>
+          </div>
+          <div class="speakers-cards aux-card">
+            <img src="./images/6bebe.png" alt="" />
+            <div class="info-speakers">
+              <h3>Bebe Rexha</h3>
+              <h5>
+                Bebe Rexha recharges her batteries to go out on stage again.
+              </h5>
+              <hr class="line3" />
+              <p>
+                The Albanian artist confirms her tour called, "Best Fun Night of my Life Tour", through cities in her country.
+              </p>
+            </div>
           </div>
         </div>
         <button id="button-more">
           MORE
           <img id="arrow-more" src="./images/angulo-hacia-abajo.png" alt="" />
         </button>
+      </div>
+      <div id="partner">
+        <h2>Partner</h2>
+        <hr class="line4" />
+        <div id="logos">
+          <img src="./images/imgpartner1.png" alt="" />
+          <img src="./images/imgpartner2.png" alt="" />
+          <img src="./images/imgpartner3.png" alt="" />
+          <img src="./images/imgpartner4.png" alt="" />
+          <img src="./images/imgpartner5.png" alt="" />
+        </div>
+      </div>
+      <div id="footer">
+        <img src="./images/cck-logo1.png" alt="" />
+        <p>
+          2015 Creative Commons Korea. Some Rights
+          <br>
+          <br>
+          달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시
+          2.0 대한민국 라이선스에 따라 이용할 수 있습니다. <br> 자세한 이용기능
+          내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를
+          보세요.
+        </p>
       </div>
     </section>
     <script src="./index.js"></script>
