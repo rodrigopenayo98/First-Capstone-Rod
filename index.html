@@ -20,44 +20,48 @@
       <div id="first-header">
         <img src="./images/logo-facebook.png" alt="" />
         <img src="./images/logo-tweeter.png" alt="" />
-        <ul id="navbar-h1">
-          <li><a href="#">English</a></li>
-          <li><a href="#">My Page</a></li>
-          <li><a href="#">Logout</a></li>
-        </ul>
+        <nav>
+          <ul id="navbar-h1">
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </nav>
       </div>
+      <div id="second-header">
+        <a href="./index.html" id="logo-header"
+          ><img src="./images/logo.png" alt=""
+        /></a>
+        <nav>
+          <ul id="navbar-h2">
+            <li><a href="./about.html">About</a></li>
+            <li><a>Program</a></li>
+            <li><a>Join</a></li>
+            <li><a>Sponsor</a></li>
+            <li><a>News</a></li>
+            <li><button>CC Campaign</button></li>
+          </ul>
+        </nav>
+      </div>
+      <img id="hamburg" src="./images/menu.png" alt="" />
     </header>
-    <div id="second-header">
-      <a href="./index.html" id="logo-header"
-        ><img src="./images/logo.png" alt=""
-      /></a>
-      <ul id="navbar-h2">
-        <li><a href="./about.html">About</a></li>
-        <li><a>Program</a></li>
-        <li><a>Join</a></li>
-        <li><a>Sponsor</a></li>
-        <li><a>News</a></li>
-        <li><button>CC Campaign</button></li>
-      </ul>
-    </div>
-    <section id="section1">
+    <main id="section1">
       <nav class="menu-responsive">
-        <div class="x-section">
+        <div class="x-section flex">
           <img src="./images/x-icon.png" alt="" />
         </div>
         <ul class="navbar-menu-responsive">
           <li>
             <a href="./about.html" class="items-menu-responsive">About</a>
           </li>
-          <li><a href="#" class="items-menu-responsive">Program</a></li>
-          <li><a href="#" class="items-menu-responsive">Join</a></li>
-          <li><a href="#" class="items-menu-responsive">Sponsor</a></li>
-          <li><a href="#" class="items-menu-responsive">News</a></li>
+          <li><a href="#" class="items-menu-responsive flex">Program</a></li>
+          <li><a href="#" class="items-menu-responsive flex">Join</a></li>
+          <li><a href="#" class="items-menu-responsive flex">Sponsor</a></li>
+          <li><a href="#" class="items-menu-responsive flex">News</a></li>
           <li><button>CC Campaign</button></li>
         </ul>
       </nav>
-      <div id="main-banner">
-        <img id="hamburg" src="./images/menu.png" alt="" />
+      <section id="main-banner">
         <div id="main-content">
           <h4>Don't miss these trips!</h4>
 
@@ -78,12 +82,12 @@
           <h4>2023.01.15(THU) ~ 16(FRI)</h4>
           <h6>@ Tomorrowland, Lollapalooza and more</h6>
         </div>
-      </div>
-      <div id="main-program">
-        <h3>Our Core Services Program</h3>
+      </section>
+      <section id="main-program" class="flex">
+        <h3 class="flex">Our Core Services Program</h3>
         <hr class="line" />
         <div class="cards-container">
-          <div class="cards-main-program">
+          <article class="cards-main-program flex">
             <img
               class="img-cards-main-program"
               src="./images/program_icon_01.png"
@@ -94,8 +98,8 @@
               Don't miss the opportunity to get to know your favorite artist up
               close together with other fans.
             </p>
-          </div>
-          <div class="cards-main-program">
+          </article>
+          <article class="cards-main-program flex">
             <img
               class="img-cards-main-program"
               src="./images/program_icon_02.png"
@@ -106,8 +110,8 @@
               Find out about our offers and the best packages to watch the live
               broadcasts of all current festivals.
             </p>
-          </div>
-          <div class="cards-main-program">
+          </article>
+          <article class="cards-main-program flex">
             <img
               class="img-cards-main-program"
               src="./images/program_icon_03.png"
@@ -118,8 +122,8 @@
               We have fan forums where we hold raffles for merchandising and
               tickets!
             </p>
-          </div>
-          <div class="cards-main-program">
+          </article>
+          <article class="cards-main-program flex">
             <img
               class="img-cards-main-program"
               src="./images/program_icon_04.png"
@@ -131,8 +135,8 @@
               best deals on trips, stays, and recreation during your visits to
               the festivals.
             </p>
-          </div>
-          <div class="cards-main-program">
+          </article>
+          <article class="cards-main-program flex">
             <img
               class="img-cards-main-program"
               src="./images/program_icon_05.png"
@@ -144,12 +148,12 @@
               when traveling to other destinations, which is why we have super
               cheap health insurance.
             </p>
-          </div>
+          </article>
         </div>
         <a id="aux-link" href="#">SEE THE WHOLE PROGRAM</a>
         <button>BUY YOUR TICKETS NOW!</button>
-      </div>
-      <div id="featured-speaker">
+      </section>
+      <section id="featured-speaker" class="flex">
         <h2>Upcoming Events</h2>
         <hr class="line-speaker" />
         <div id="speaker-container">
@@ -159,8 +163,8 @@
           MORE
           <img id="arrow-more" src="./images/angulo-hacia-abajo.png" alt="" />
         </button>
-      </div>
-      <div id="partner">
+      </section>
+      <section id="partner">
         <h2>Partner</h2>
         <hr class="line4" />
         <div id="logos">
@@ -170,8 +174,8 @@
           <img src="./images/imgpartner4.png" alt="" />
           <img src="./images/imgpartner5.png" alt="" />
         </div>
-      </div>
-      <div id="footer">
+      </section>
+      <section id="footer">
         <img src="./images/cck-logo1.png" alt="" />
         <p>
           2015 Creative Commons Korea. Some Rights
@@ -182,8 +186,8 @@
           내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를
           보세요.
         </p>
-      </div>
-    </section>
+      </section>
+    </main>
     <script src="./index.js"></script>
   </body>
 </html>

@@ -69,9 +69,9 @@ const speakers = [
 
 let cards = '';
 speakers.forEach((artist, index) => {
-  if (index < 2 && (artist.name !== 'Ed Sheeran' && artist.name !== 'Imagine Dragons')) {
+  if (index >= 2 && index <= 5) {
     cards += `
-      <div class="speakers-cards aux-card">
+      <div class="speakers-cards flex aux-card">
         <img src="${artist.img}" alt="" />
         <div class="info-speakers">
           <h3>${artist.name}</h3>
@@ -80,20 +80,9 @@ speakers.forEach((artist, index) => {
           <p>${artist.info2}</p>
         </div>
       </div>`;
-  } else if (index >= 2 && index <= 5) {
+  } else {
     cards += `
-      <div class="speakers-cards aux-card">
-        <img src="${artist.img}" alt="" />
-        <div class="info-speakers">
-          <h3>${artist.name}</h3>
-          <h5>${artist.info1}</h5>
-          <hr class="line3" />
-          <p>${artist.info2}</p>
-        </div>
-      </div>`;
-  } else if (index < 6) {
-    cards += `
-      <div class="speakers-cards">
+      <div class="speakers-cards flex">
         <img src="${artist.img}" alt="" />
         <div class="info-speakers">
           <h3>${artist.name}</h3>
@@ -106,3 +95,4 @@ speakers.forEach((artist, index) => {
 });
 
 document.querySelector('#speaker-container').innerHTML = cards;
+

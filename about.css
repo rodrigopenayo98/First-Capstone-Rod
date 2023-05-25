@@ -12,8 +12,11 @@ body {
 }
 
 header {
-  display: block;
-  text-align: left;
+  display: flex;
+  justify-content: left;
+  width: 375px;
+  position: absolute;
+  background-color: transparent;
 }
 
 #first-header {
@@ -31,14 +34,11 @@ header {
 
 #hamburg {
   padding-left: 25px;
-  padding-top: 15px;
+  padding-top: 20px;
   width: 31px;
   height: 27.28px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  float: left;
   cursor: pointer;
-  align-self: flex-start;
-  margin-left: 0;
 }
 
 #main-banner {
@@ -68,11 +68,10 @@ header {
 }
 
 #main-content h4 {
-  padding: 47.62px 0 0 0;
+  padding: 75px 0 0 16px;
   font-family: 'Lato', sans-serif;
-  color: #ec5242;
+  color: #fff;
   font-weight: 400;
-  text-align: center;
 }
 
 #second-parraf-banner p {
@@ -421,6 +420,8 @@ header {
   header {
     display: block;
     text-align: left;
+    position: static;
+    width: 1440px;
   }
 
   #first-header {
@@ -431,6 +432,18 @@ header {
     color: #fff;
     width: 1140px;
     text-align: left;
+  }
+
+  .cards-main-program img {
+    width: 64px;
+    height: 58px;
+    margin: 0;
+  }
+
+  .speakers-cards img {
+    width: 178px;
+    height: 177px;
+    padding-right: 15px;
   }
 
   #first-header img {
@@ -464,27 +477,23 @@ header {
     color: #272a31;
   }
 
-  #navbar-h2 li a:hover {
-    color: #ec5242;
-  }
-
   #navbar-h1 li a:hover {
     border-bottom: 1px solid #fff;
   }
 
   #second-header {
     background-color: #fff;
-    width: 1250px;
+    width: 1440px;
     display: flex;
     height: 50px;
-    padding: 10px 190px 10px 0;
-    justify-content: center;
+    padding: 10px 0 10px 0;
     align-items: center;
   }
 
   #logo-header {
     display: block;
-    padding: 0 0 0 150px;
+    padding-right: 250px;
+    padding-left: 150px;
   }
 
   #second-header img {
@@ -498,6 +507,10 @@ header {
     background-color: #fff;
     color: #ec5242;
     border: 3px solid #ec5242;
+  }
+
+  #main-program button {
+    display: none;
   }
 
   #second-header button:hover {
@@ -518,6 +531,10 @@ header {
     width: auto;
     padding: 15px 30px 15px 30px;
     font-family: 'Lato', sans-serif;
+  }
+
+  #navbar-h2 li a:hover {
+    color: #ec5242;
   }
 
   #hamburg {

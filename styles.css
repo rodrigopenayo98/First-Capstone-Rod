@@ -12,17 +12,25 @@ body {
   background-color: #d3d3d3;
 }
 
-header {
-  display: block;
-  text-align: left;
+.flex {
+  display: flex;
 }
 
 #section1 {
   background-color: #fff;
+  width: 373px;
 }
 
 #first-header {
   display: none;
+}
+
+header {
+  display: flex;
+  justify-content: left;
+  width: 375px;
+  position: absolute;
+  background-color: transparent;
 }
 
 #logo-header {
@@ -56,7 +64,7 @@ header {
 }
 
 #main-content h4 {
-  padding: 27.62px 0 0 16px;
+  padding: 75px 0 0 16px;
   font-family: 'Lato', sans-serif;
   color: #fff;
   font-weight: 400;
@@ -109,7 +117,8 @@ header {
   background-color: #272a31;
   background-repeat: repeat;
   background-size: 28px;
-  display: flex;
+
+  /* display: flex; */
   flex-direction: column;
   padding-bottom: 25px;
 }
@@ -123,7 +132,8 @@ header {
 #main-program h3 {
   font-family: 'Lato', sans-serif;
   color: #fff;
-  display: flex;
+
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   padding: 30px 30px 12px 30px;
@@ -140,11 +150,10 @@ header {
 .cards-main-program {
   margin: 8px;
   background-color: rgba(182, 180, 180, 0.1);
-  display: flex;
   font-family: 'Lato', sans-serif;
   align-items: center;
   height: 80px;
-  width: 96%;
+  width: 357px;
 }
 
 .cards-main-program:hover {
@@ -225,7 +234,6 @@ header {
 }
 
 #featured-speaker {
-  display: flex;
   flex-direction: column;
   padding: 35px 10px 35px 10px;
   background-color: #fff;
@@ -248,7 +256,6 @@ header {
 }
 
 .speakers-cards {
-  display: flex;
   width: 100%;
   font-family: 'Lato', sans-serif;
   height: 80px;
@@ -322,7 +329,6 @@ header {
 }
 
 .items-menu-responsive {
-  display: flex;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   font-size: 25px;
@@ -359,7 +365,6 @@ header {
 }
 
 .x-section {
-  display: flex;
   justify-content: end;
   padding: 38px 18px 5px 5px;
   cursor: pointer;
@@ -389,6 +394,8 @@ header {
   header {
     display: block;
     text-align: left;
+    position: static;
+    width: 1440px;
   }
 
   body {
@@ -458,17 +465,17 @@ header {
 
   #second-header {
     background-color: #fff;
-    width: 1250px;
+    width: 1440px;
     display: flex;
     height: 50px;
-    padding: 10px 190px 10px 0;
-    justify-content: center;
+    padding: 10px 0 10px 0;
     align-items: center;
   }
 
   #logo-header {
     display: block;
-    padding: 0 0 0 150px;
+    padding-right: 250px;
+    padding-left: 150px;
   }
 
   #second-header img {
