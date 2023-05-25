@@ -93,11 +93,6 @@ To run the project, execute the following command:
 
 Linters and Git Commands.
 
-### Run tests
-
-To run tests, run the following command:
-
-Linters
 
 <!-- AUTHORS -->
 
@@ -115,7 +110,7 @@ Linters
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--**[HTML]** -**[CSS]** -**[LINTERS]**
+-**[Login and Sign On]** -
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,13 +136,11 @@ If you like this project give a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+## 📝 License <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
-
-## 📝 License <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 This project is [MIT](./MIT.md) licensed.
 
