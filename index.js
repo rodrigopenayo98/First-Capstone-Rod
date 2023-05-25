@@ -95,4 +95,3 @@ speakers.forEach((artist, index) => {
 });
 
 document.querySelector('#speaker-container').innerHTML = cards;
-
